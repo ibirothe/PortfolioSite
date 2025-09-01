@@ -2,67 +2,60 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { CgCPlusPlus } from "react-icons/cg";
 import {
-  DiJavascript1,
-  DiReact,
-  DiNodejs,
-  DiMongodb,
   DiPython,
   DiGit,
-  DiJava,
+  DiPhotoshop,
+  DiWindows
 } from "react-icons/di";
 import {
-  SiRedis,
-  SiFirebase,
-  SiNextdotjs,
-  SiSolidity,
-  SiPostgresql,
+  SiSteamworks,
+  SiItchdotio,
+  SiArduino,
+  SiDiscord,
+  SiBlender,
+  SiAseprite,
+  SiVisualstudiocode,
+  SiGodotengine,
 } from "react-icons/si";
-import { TbBrandGolang } from "react-icons/tb";
 
 function Techstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
       <Col xs={4} md={2} className="tech-icons">
-        <CgCPlusPlus />
+        <DiPython />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiJavascript1 />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <TbBrandGolang />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiNodejs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiReact />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiSolidity />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiMongodb />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiNextdotjs />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
+            <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiFirebase />
+        <SiGodotengine />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiRedis />
+        <SiSteamworks />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiPostgresql />
+        <SiItchdotio />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPython />
+        <SiDiscord />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiJava />
+        <DiPhotoshop />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAseprite />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiBlender />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiVisualstudiocode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiWindows />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiArduino />
       </Col>
     </Row>
   );
