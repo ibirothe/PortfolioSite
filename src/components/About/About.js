@@ -31,6 +31,10 @@ function About() {
             className="about-img"
           >
             <img src={laptopImg} alt="about" className="img-fluid" />
+          <p style={{ color: "rgb(155 126 172)" }}>
+            Software development is technical activity conducted by human beings.{" "}
+            </p>
+          <footer className="blockquote-footer">Niklaus Wirth</footer>
           </Col>
         </Row>
         <h1 className="project-heading">

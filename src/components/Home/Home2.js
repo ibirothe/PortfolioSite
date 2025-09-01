@@ -5,7 +5,7 @@ import Tilt from "react-parallax-tilt";
 import Type from "./Type";
 import {
   AiFillGithub,
-  AiFillInstagram,
+  AiFillMail,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -22,38 +22,12 @@ function Home2() {
               <Type />
             </div>
             <p className="home-about-body">
-              Mein Weg erscheint auf den ersten Blick unkonventionell - und genau das macht ihn zu meiner Stärke. Nach fast zwei Jahrzehnten selbstständiger Arbeit als Tätowierer, in der ich Kunden akquiriert, beraten und kreative, individuelle Lösungen entwickelt habe, strebe ich nun den Schritt in die Software-Entwicklung an, welche mich seit Kindheitstagen begleitet.
-              <br />
-              <br />Meine primären Sprachen sind
-              <i>
-                <b className="purple"> Python und GdScript. </b>
-              </i>
+              IT ist meine Leidenschaft seit über 25 Jahren. Software zu entwickeln bedeutet für mich Probleme in ihre Bestandteile zu zerbrechen, um sie in der richtigen Komposition als Lösung wieder zusammenzufügen. Mein beruflicher Alltag zeichnet sich durch digitale Kommunikation, selbstorganisiertes Arbeiten und die präzise Vermittlung komplexer Inhalte aus.
               <br />
               <br />
-              Meine Interessenfelder sind das Entwickeln, Testen und Verbessern &nbsp;
-              <i>
-                <b className="purple">Software</b> und
-                das Lernen neuer {" "}
-                <b className="purple">
-                  Skills
-                </b>
-                &nbsp; auf dem Weg.
-              </i>
+              <b className="purple">Erfüllung</b> liegt für mich in persönlichem <b className="purple">Erfahrungsgewinn</b>, dem Erlernen neuer Fähigkeiten und das <b className="purple">Entwickeln</b> eleganter, durchdachter Lösungen.
               <br />
               <br />
-              Neben diversen Tools auf Basis von <i><b className="purple">Python Frameworks</b></i>
-              &nbsp; wie
-              <i>
-                <b className="purple"> Flask, PyQt, Pycord und Tkinter</b>
-              </i>
-              &nbsp; habe ich ein &nbsp;
-              <i>
-                <b className="purple">
-                  {" "}
-                  Godot Engine
-                </b>
-              </i>
-              &nbsp; Spiel auf Steam veröffentlicht.
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -64,9 +38,9 @@ function Home2() {
         </Row>
         <Row>
           <Col md={12} className="home-about-social">
-            <h1>FIND ME ON</h1>
+            <h1>Kontakt</h1>
             <p>
-              Feel free to <span className="purple">connect </span>with me
+              Feel free to <span className="purple">connect </span>.
             </p>
             <ul className="home-about-social-links">
               <li className="social-icons">
@@ -91,12 +65,11 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/ibirothe"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
+                  href="mailto:ibirothe@gmail.com?subject=Hello"
+                  style={{ color: "white" }}
+                  className="icon-colour  home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <AiFillMail />
                 </a>
               </li>
             </ul>
