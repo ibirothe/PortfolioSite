@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import { ImArrowRight } from "react-icons/im";
 
 function AboutCard() {
   return (
@@ -8,25 +8,36 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Pascal Rothe </span>
-            from <span className="purple"> Leipzig, Germany.</span>
+            Name: <span className="purple">Pascal Rothe </span>
             <br />
-            Here comes some text about me.
+            Wohnort: <span className="purple"> Leipzig, Germany.</span>
             <br />
-            More text and stuff. Cool things to say.
+            Alter: <span className="purple"> 35</span>
             <br />
             <br />
-            Here comes a list of things:
+            Kernkompetenzen:
           </p>
           <ul>
             <li className="about-activity">
-              <ImPointRight /> Thing 1
+              <ImArrowRight /> Struktur und <span className="purple">Organisation</span>
             </li>
             <li className="about-activity">
-              <ImPointRight /> Thing 2
+              <ImArrowRight /> <span className="purple">Kommunikation</span> und Teamfähigkeit
             </li>
             <li className="about-activity">
-              <ImPointRight /> Thing 3
+              <ImArrowRight /> Analysestärke und <span className="purple">Problemlösung</span>
+            </li>
+          </ul>
+          <br />
+          <p style={{ textAlign: "justify" }}>
+            Sprachen:
+          </p>
+          <ul>
+            <li className="about-activity">
+              <ImArrowRight /> Deutsch <span className="purple">Muttersprachler</span>
+            </li>
+            <li className="about-activity">
+              <ImArrowRight /> <span className="purple">English</span> Flüssig in Wort und Schrift
             </li>
           </ul>
 

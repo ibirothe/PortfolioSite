@@ -2,9 +2,10 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
-import steam from "../../Assets/Projects/leaf.png";
-import emotion from "../../Assets/Projects/emotion.png";
-import editor from "../../Assets/Projects/codeEditor.png";
+import kings_guard from "../../Assets/Projects/kings_guard.png";
+import tales from "../../Assets/Projects/tales.png";
+import rover from "../../Assets/Projects/rover.png";
+import gol from "../../Assets/Projects/game_of_life.png";
 
 function Projects() {
   return (
@@ -12,18 +13,18 @@ function Projects() {
       <Particle />
       <Container>
         <h1 className="project-heading">
-          My Recent <strong className="purple">Works </strong>
+          Einige meiner <strong className="purple">Projekte </strong>
         </h1>
         <p style={{ color: "white" }}>
-          Here are a few projects I've worked on recently.
+          Hier sind exemplarisch einige meiner Projekte mit Code Snippets aufgeführt.
         </p>
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={steam}
+              imgPath={kings_guard}
               isBlog={false}
               title="King´s Guard"
-              description="Roguelike Strategy Spiel inklusive SteamAPI Errungenschaften, Bestenlisten und Cloud Speicherung - Entwickelt in GDScript4.4."
+              description="Rundenbasiertes Strategie-Spiel entwickelt mit Godot Engine und auf Steam mit mehr als 1.000 Wishlists veröfentlicht. Inklusive SteamworksAPI Errungenschaften, Bestenlisten und Cloud Speicherung. Kuratiert von Games Germany, Tiny Teams, ANZ Indieshowcase, Debut Festival und Steam Board Games Festival."
               ghLink="https://gist.github.com/ibirothe/82b46f567069768b615b2a81f7af56a9"
               demoLink="https://store.steampowered.com/app/3720900/Kings_Guard/"
             />
@@ -31,23 +32,33 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={emotion}
+              imgPath={tales}
               isBlog={false}
-              title="Bits-0f-C0de"
-              description="My personal blog page build with Next.js and Tailwind Css which takes the content from makdown files and renders it using Next.js. Supports dark mode and easy to write blogs using markdown."
-              ghLink="https://github.com/soumyajit4419/Bits-0f-C0de"
-              demoLink="https://blogs.soumya-jit.tech/"
+              title="Tales Discord Bot"
+              description="Mehrspieler-Bot-Anwendung, die via Pycord API Wrapper Discord-Nutzer mit einer Spielwelt auf Basis von Esper ECS und Ink Scripting Language. Meine Projekt-Kontribution umfasst die konzeptuelle Arbeit an einem umfassenden Design Document, Erstellen von Components und Entities, sowie deren Processors und ein modulares, grammatisches Playerlog, das GameState in englische Sprache transkribiert."
+              ghLink="https://gist.github.com/ibirothe/c42e7d66a7a1b878ef696510340fceb3"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={editor}
+              imgPath={rover}
               isBlog={false}
-              title="Editor.io"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              ghLink="https://github.com/soumyajit4419/Editor.io"
-              demoLink="https://editor.soumya-jit.tech/"              
+              title="Rover & Out"
+              description="Thematische Game Jam Entry mit limitierter Entwicklungszeit. Prototyp für ein web-based Puzzle-Spiel mit Platz 3 im Overall-Ranking."
+              ghLink="https://gist.github.com/ibirothe/f233bb681e32e88e58a796ecb83882aa"
+              demoLink="https://ibirothe.itch.io/roverandout"              
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={gol}
+              isBlog={false}
+              title="Conway´s GOL"
+              description="Test"
+              ghLink="https://gist.github.com/ibirothe/512a7f472f39d87cae6ec6bc021af421"
+              demoLink="https://ibirothe.itch.io/roverandout"              
             />
           </Col>
         </Row>

@@ -2,9 +2,9 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/about.png";
 import Tilt from "react-parallax-tilt";
+import Type from "./Type";
 import {
   AiFillGithub,
-  AiOutlineTwitter,
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
@@ -18,6 +18,9 @@ function Home2() {
             <h1 style={{ fontSize: "2.6em" }}>
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
+            <div style={{ textAlign: "center" }}>
+              <Type />
+            </div>
             <p className="home-about-body">
               Mein Weg erscheint auf den ersten Blick unkonventionell - und genau das macht ihn zu meiner Stärke. Nach fast zwei Jahrzehnten selbstständiger Arbeit als Tätowierer, in der ich Kunden akquiriert, beraten und kreative, individuelle Lösungen entwickelt habe, strebe ich nun den Schritt in die Software-Entwicklung an, welche mich seit Kindheitstagen begleitet.
               <br />
