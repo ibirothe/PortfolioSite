@@ -24,19 +24,8 @@ function Projects() {
               imgPath={kings_guard}
               isBlog={false}
               title="King´s Guard"
-              description="Rundenbasiertes Strategie-Spiel entwickelt mit Godot Engine und auf Steam mit mehr als 1.000 Wishlists veröfentlicht. Inklusive SteamworksAPI Errungenschaften, Bestenlisten und Cloud Speicherung. Kuratiert von Games Germany, Tiny Teams, ANZ Indieshowcase, Debut Festival und Steam Board Games Festival."
-              ghLink="https://gist.github.com/ibirothe/82b46f567069768b615b2a81f7af56a9"
+              description="Rundenbasiertes Strategie-Spiel, entwickelt mit der Godot Engine und auf Steam mit über 1.000 Wishlists veröffentlicht. Integriert Steamworks-API-Funktionen wie Errungenschaften, Bestenlisten und Cloud-Speicherung. Kuratiert von Games Germany, Tiny Teams, ANZ Indie Showcase, Debut Festival und Steam Board Games Festival."
               demoLink="https://store.steampowered.com/app/3720900/Kings_Guard/"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={tales}
-              isBlog={false}
-              title="Tales Discord Bot"
-              description="Mehrspieler-Bot-Anwendung, die via Pycord API Wrapper Discord-Nutzer mit einer Spielwelt auf Basis von Esper ECS und Ink Scripting Language. Meine Projekt-Kontribution umfasst die konzeptuelle Arbeit an einem umfassenden Design Document, Erstellen von Components und Entities, sowie deren Processors und ein modulares, grammatisches Playerlog, das GameState in englische Sprache transkribiert."
-              ghLink="https://gist.github.com/ibirothe/c42e7d66a7a1b878ef696510340fceb3"
             />
           </Col>
 
@@ -45,7 +34,7 @@ function Projects() {
               imgPath={rover}
               isBlog={false}
               title="Rover & Out"
-              description="Thematische Game Jam Entry mit limitierter Entwicklungszeit. Prototyp für ein web-based Puzzle-Spiel mit Platz 3 im Overall-Ranking."
+              description="Thematische Game-Jam-Entry mit begrenzter Entwicklungszeit. Prototyp eines webbasierten Puzzle-Spiels mit sequenzbasierter Steuerung durch strategische Labyrinthe. Erreichte Platz 3 im Gesamt-Ranking."
               ghLink="https://gist.github.com/ibirothe/f233bb681e32e88e58a796ecb83882aa"
               demoLink="https://ibirothe.itch.io/roverandout"              
             />
@@ -56,9 +45,18 @@ function Projects() {
               imgPath={gol}
               isBlog={false}
               title="Conway´s GOL"
-              description="Test"
-              ghLink="https://gist.github.com/ibirothe/512a7f472f39d87cae6ec6bc021af421"
-              demoLink="https://ibirothe.itch.io/roverandout"              
+              description="Eine beispielhafte Python-Implementierung von Conways Game of Life mit einer Tkinter-GUI. Dieses Repository dient in erster Linie als Demonstration von Git-, GitHub-Workflows und sauberer Projektstruktur und nicht als vollwertige Desktop-Anwendung."
+              ghLink="https://github.com/ibirothe/Conway-s-Game-of-life---Tkinter"        
+            />
+          </Col>
+
+             <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={tales}
+              isBlog={false}
+              title="Tales Discord Bot"
+              description="Mehrspieler-Bot-Anwendung, die über den Pycord-API-Wrapper Discord-Nutzer mit einer Spielwelt auf Basis von Esper ECS und Ink Scripting Language verbindet. Meine Projektbeiträge umfassen die konzeptuelle Arbeit an einem umfassenden Design-Dokument, das Erstellen von Components, Entities und deren Processors sowie die Entwicklung eines modularen, grammatikalisch strukturierten Playerlogs, das den GameState in englische Sprache übersetzt."
+              ghLink="https://gist.github.com/ibirothe/c42e7d66a7a1b878ef696510340fceb3"
             />
           </Col>
         </Row>

@@ -22,7 +22,7 @@ function Home2() {
               <Type />
             </div>
             <p className="home-about-body">
-              IT ist meine Leidenschaft seit über 25 Jahren. Software zu entwickeln bedeutet für mich Probleme in ihre Bestandteile zu zerbrechen, um sie in der richtigen Komposition als Lösung wieder zusammenzufügen. Mein beruflicher Alltag zeichnet sich durch digitale Kommunikation, selbstorganisiertes Arbeiten und die präzise Vermittlung komplexer Inhalte aus.
+              IT ist meine Leidenschaft seit über 20 Jahren. Software zu entwickeln bedeutet für mich Probleme in ihre Bestandteile zu zerbrechen, um sie in der richtigen Komposition als Lösung wieder zusammenzufügen. Mein beruflicher Alltag zeichnet sich durch digitale Kommunikation, selbstorganisiertes Arbeiten und die präzise Vermittlung komplexer Inhalte aus.
               <br />
               <br />
               <b className="purple">Erfüllung</b> liegt für mich in persönlichem <b className="purple">Erfahrungsgewinn</b>, dem Erlernen neuer Fähigkeiten und das <b className="purple">Entwickeln</b> eleganter, durchdachter Lösungen.
