@@ -10,9 +10,9 @@ import {
   SiSteamworks,
   SiItchdotio,
   SiDiscord,
-  SiBlender,
   SiVisualstudiocode,
   SiGodotengine,
+  SiJira,
 } from "react-icons/si";
 
 function Techstack() {
@@ -43,7 +43,7 @@ function Techstack() {
         <DiPhotoshop />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiBlender />
+        <SiJira />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />

@@ -7,7 +7,7 @@ function AboutCard() {
     <Card className="quote-card-view">
       <Card.Body>
         <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
+          <p style={{ textAlign: "left" }}>
             Name: <span className="purple">Pascal Rothe </span>
             <br />
             Wohnort: <span className="purple"> Leipzig, Germany.</span>
