@@ -16,7 +16,7 @@ pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/$
 
 // Raw GitHub-Link zum PDF
 const resumeLink =
-  "https://raw.githubusercontent.com/ibirothe/PortfolioSite/master/src/Assets/LebenslaufComp.pdf";
+  "https://raw.githubusercontent.com/ibirothe/PortfolioSite/master/src/Assets/CV_Pascal_Rothe.pdf";
 
 function ResumeNew() {
   const [width, setWidth] = useState(window.innerWidth);
