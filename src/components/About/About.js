@@ -13,7 +13,7 @@ function About() {
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
-            md={4}
+            xs={12} sm={6} md={4}
             style={{
               justifyContent: "center",
               paddingTop: "30px",
@@ -23,7 +23,7 @@ function About() {
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Fact <strong className="purple">Sheet</strong>
             </h1>
-            <Col md={11} className="tech-icons">
+            <Container className="tech-icons" style={{ marginBottom: "15px" }}>
               <blockquote className="blockquote mb-0">
                 <p style={{ textAlign: "left", fontSize: "0.8em" }}>
                   Name: <span className="purple">Pascal Rothe </span>
@@ -34,8 +34,8 @@ function About() {
                   <br />
                 </p>
               </blockquote>
-            </Col>
-            <Col md={11} className="tech-icons">
+            </Container>
+            <Container className="tech-icons">
               <blockquote className="blockquote mb-0">
                 <p style={{ textAlign: "left" }}>
                   Kernkompetenzen:
@@ -50,8 +50,8 @@ function About() {
                     </li>
                 </p>
               </blockquote>
-            </Col>
-            <Col md={11} className="tech-icons">
+            </Container>
+            <Container className="tech-icons">
               <blockquote className="blockquote mb-0">
                 <p style={{ textAlign: "justify" }}>
                   Programmiersprachen:
@@ -66,8 +66,8 @@ function About() {
                     </li>
                 </p>
               </blockquote>
-            </Col>
-            <Col md={11} className="tech-icons">
+            </Container>
+            <Container className="tech-icons">
               <blockquote className="blockquote mb-0">
                 <p style={{ textAlign: "justify" }}>
                   Erfahrungen:
@@ -85,8 +85,8 @@ function About() {
                   </li>
                 </p>
               </blockquote>
-            </Col>
-            <Col md={11} className="tech-icons">
+            </Container>
+            <Container className="tech-icons">
               <blockquote className="blockquote mb-0">
                 <p style={{ textAlign: "justify" }}>
                   Sprachkenntnisse:
@@ -98,7 +98,7 @@ function About() {
                   </li>
                 </p>
               </blockquote>
-            </Col>
+            </Container>
           </Col>
           <Col
             md={5}
