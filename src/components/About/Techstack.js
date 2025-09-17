@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 import {
   DiPython,
   DiGit,
-  DiPhotoshop,
+  DiGithub,
   DiJavascript1
 } from "react-icons/di";
 import {
@@ -13,6 +13,11 @@ import {
   SiVisualstudiocode,
   SiGodotengine,
   SiJira,
+  SiDjango,
+  SiSqlite,
+  SiDocker,
+  SiFlask,
+  SiReact,
 } from "react-icons/si";
 
 function Techstack() {
@@ -23,6 +28,9 @@ function Techstack() {
       </Col>
             <Col xs={4} md={2} className="tech-icons">
         <DiGit />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <DiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiGodotengine />
@@ -40,13 +48,25 @@ function Techstack() {
         <SiDiscord />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <DiPhotoshop />
+        <SiDjango/>
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiJira />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiDocker />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiSqlite/>
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiFlask />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiReact />
       </Col>
     </Row>
   );

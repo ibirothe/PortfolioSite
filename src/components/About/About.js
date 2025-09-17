@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
-import Aboutcard from "./AboutCard";
+import { ImPlus } from "react-icons/im";
 import laptopImg from "../../Assets/about.png";
 
 function About() {
@@ -13,7 +13,7 @@ function About() {
       <Container>
         <Row style={{ justifyContent: "center", padding: "10px" }}>
           <Col
-            md={7}
+            md={4}
             style={{
               justifyContent: "center",
               paddingTop: "30px",
@@ -23,7 +23,82 @@ function About() {
             <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
               Fact <strong className="purple">Sheet</strong>
             </h1>
-            <Aboutcard />
+            <Col md={11} className="tech-icons">
+              <blockquote className="blockquote mb-0">
+                <p style={{ textAlign: "left", fontSize: "0.8em" }}>
+                  Name: <span className="purple">Pascal Rothe </span>
+                  <br />
+                  Wohnort: <span className="purple"> Leipzig, Germany.</span>
+                  <br />
+                  Alter: <span className="purple"> 35</span>
+                  <br />
+                </p>
+              </blockquote>
+            </Col>
+            <Col md={11} className="tech-icons">
+              <blockquote className="blockquote mb-0">
+                <p style={{ textAlign: "left" }}>
+                  Kernkompetenzen:
+                    <li className="about-activity" style={{ fontSize: "0.8em" }}>
+                      <ImPlus /> Struktur und <span className="purple">Organisation</span>
+                    </li>
+                    <li className="about-activity" style={{ fontSize: "0.8em" }}>
+                      <ImPlus /> <span className="purple">Kommunikation</span> und Teamfähigkeit
+                    </li>
+                    <li className="about-activity" style={{ fontSize: "0.8em" }}>
+                      <ImPlus /> Analysestärke und <span className="purple">Problemlösung</span>
+                    </li>
+                </p>
+              </blockquote>
+            </Col>
+            <Col md={11} className="tech-icons">
+              <blockquote className="blockquote mb-0">
+                <p style={{ textAlign: "justify" }}>
+                  Programmiersprachen:
+                    <li className="about-activity" style={{ fontSize: "0.8em" }}>
+                      <ImPlus /> <span className="purple">Python</span> - Intermediate
+                    </li>
+                    <li className="about-activity" style={{ fontSize: "0.8em" }}>
+                      <ImPlus /> <span className="purple">GdScript</span> - Advanced
+                    </li>
+                    <li className="about-activity" style={{ fontSize: "0.8em" }}>
+                      <ImPlus /> <span className="purple">JavaScript</span> - Learner
+                    </li>
+                </p>
+              </blockquote>
+            </Col>
+            <Col md={11} className="tech-icons">
+              <blockquote className="blockquote mb-0">
+                <p style={{ textAlign: "justify" }}>
+                  Erfahrungen:
+                  <li className="about-activity" style={{ fontSize: "0.8em" }}>
+                    <ImPlus /> <span className="purple">17 Jahre</span> Selbstständigkeit
+                  </li>
+                  <li className="about-activity" style={{ fontSize: "0.8em" }}>
+                    <ImPlus /> <span className="purple">Kundenakquise-</span> und -beratung
+                  </li>
+                  <li className="about-activity" style={{ fontSize: "0.8em" }}>
+                    <ImPlus /> <span className="purple">Game Releases</span> auf Steam und ItchIo
+                  </li>
+                  <li className="about-activity" style={{ fontSize: "0.8em" }}>
+                    <ImPlus /> <span className="purple">Open Source</span> Contributions
+                  </li>
+                </p>
+              </blockquote>
+            </Col>
+            <Col md={11} className="tech-icons">
+              <blockquote className="blockquote mb-0">
+                <p style={{ textAlign: "justify" }}>
+                  Sprachkenntnisse:
+                  <li className="about-activity" style={{ fontSize: "0.8em" }}>
+                    <ImPlus /> Deutsch <span className="purple">Muttersprachler</span>
+                  </li>
+                  <li className="about-activity" style={{ fontSize: "0.8em" }}>
+                    <ImPlus /> <span className="purple">English</span> Flüssig in Wort und Schrift
+                  </li>
+                </p>
+              </blockquote>
+            </Col>
           </Col>
           <Col
             md={5}
