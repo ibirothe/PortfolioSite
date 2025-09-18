@@ -21,7 +21,7 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <Type></Type>
+            <Container><Type></Type></Container>
             <Container className="tech-icons" style={{ marginBottom: "15px" }}>
               <blockquote className="blockquote mb-0">
                 <p style={{ textAlign: "left", fontSize: "0.8em" }}>
