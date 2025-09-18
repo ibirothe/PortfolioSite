@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import Particle from "../Particle";
 import Github from "./Github";
 import Techstack from "./Techstack";
+import Type from "./Type";
 import { ImPlus } from "react-icons/im";
 import laptopImg from "../../Assets/about.png";
 
@@ -20,9 +21,7 @@ function About() {
               paddingBottom: "50px",
             }}
           >
-            <h1 style={{ fontSize: "2.1em", paddingBottom: "20px" }}>
-              Fact <strong className="purple">Sheet</strong>
-            </h1>
+            <Type></Type>
             <Container className="tech-icons" style={{ marginBottom: "15px" }}>
               <blockquote className="blockquote mb-0">
                 <p style={{ textAlign: "left", fontSize: "0.8em" }}>
