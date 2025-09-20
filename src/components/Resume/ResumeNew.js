@@ -8,7 +8,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 
 // Certificate images (⏫ moved here)
 import cert1 from "../../Assets/Certificates/cert_1.png";
-import cert2 from "../../Assets/Certificates/cert_1.png";
+import cert2 from "../../Assets/Certificates/cert_2.jpg";
 import cert3 from "../../Assets/Certificates/cert_1.png";
 
 // PDF.js Worker
@@ -63,7 +63,7 @@ function ResumeNew() {
         <Row className="mt-5 justify-content-center">
           <h1 className="purple">Certificates</h1>
 
-          {[cert1].map((cert, idx) => (
+          {[cert1, cert2].map((cert, idx) => (
             <Col key={idx} md={3} className="tech-icons">
               <img
                 src={cert}
