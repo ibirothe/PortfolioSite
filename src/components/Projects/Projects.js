@@ -3,6 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import kings_guard from "../../Assets/Projects/kings_guard.png";
+import park from "../../Assets/Projects/park.png";
 import tales from "../../Assets/Projects/tales.png";
 import rover from "../../Assets/Projects/rover.png";
 import gol from "../../Assets/Projects/game_of_life.png";
@@ -39,7 +40,17 @@ function Projects() {
             />
           </Col>
 
-             <Col md={4} className="project-card">
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={park}
+              isBlog={false}
+              title="Parking Ticket CLI"
+              description="Python-CLI-App zur Parkplatz-Verwaltung mittels einer SQLite-Datenbank. Fokus des Repos liegt auf der Laufzeitoptimierung von Operationen durch Wahl performanter Datenstrukturen."
+              ghLink="https://github.com/ibirothe/Parking-Ticket-System"        
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
             <ProjectCard
               imgPath={tales}
               isBlog={false}
