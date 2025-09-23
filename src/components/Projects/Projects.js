@@ -49,27 +49,6 @@ function Projects() {
               ghLink="https://github.com/ibirothe/Parking-Ticket-System"        
             />
           </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={tales}
-              isBlog={false}
-              title="Tales Discord Bot"
-              description="Mehrspieler-Bot-Anwendung, die über den Pycord-API-Wrapper Discord-Nutzer mit einer Spielwelt auf Basis von Esper ECS und Ink Scripting Language verbindet. Meine Projektbeiträge umfassen die konzeptuelle Arbeit an einem umfassenden Design-Dokument, das Erstellen von Components, Entities und deren Processors sowie die Entwicklung eines modularen, grammatikalisch strukturierten Playerlogs, das den GameState in englische Sprache übersetzt."
-              ghLink="https://gist.github.com/ibirothe/c42e7d66a7a1b878ef696510340fceb3"
-            />
-          </Col>
-
-          <Col md={4} className="project-card">
-            <ProjectCard
-              imgPath={rover}
-              isBlog={false}
-              title="Rover & Out"
-              description="Thematische Game-Jam-Entry mit begrenzter Entwicklungszeit. Prototyp eines webbasierten Puzzle-Spiels mit sequenzbasierter Steuerung durch strategische Labyrinthe. Erreichte Platz 3 im Gesamt-Ranking."
-              ghLink="https://gist.github.com/ibirothe/f233bb681e32e88e58a796ecb83882aa"
-              demoLink="https://ibirothe.itch.io/roverandout"              
-            />
-          </Col>
         </Row>
       </Container>
     </Container>
