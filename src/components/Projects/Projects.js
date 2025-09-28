@@ -5,7 +5,7 @@ import Particle from "../Particle";
 import kings_guard from "../../Assets/Projects/kings_guard.png";
 import park from "../../Assets/Projects/park.png";
 import tales from "../../Assets/Projects/tales.png";
-import rover from "../../Assets/Projects/rover.png";
+import jay from "../../Assets/Projects/jay2door.png";
 import gol from "../../Assets/Projects/game_of_life.png";
 
 function Projects() {
@@ -32,11 +32,11 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={gol}
+              imgPath={jay}
               isBlog={false}
-              title="Conway´s GOL"
-              description="Eine beispielhafte Python-Implementierung von Conways Game of Life mit einer Tkinter-GUI. Dieses Repository dient in erster Linie als Demonstration von Git-, GitHub-Workflows und sauberer Projektstruktur und nicht als vollwertige Desktop-Anwendung."
-              ghLink="https://github.com/ibirothe/Conway-s-Game-of-life---Tkinter"        
+              title="Jay2Door"
+              description="Multi-User Todo App mit FastAPI Backend, React/Chakra-ui Frontend und MongoDB. Nutzerauthentifizierung mit JWT und passlib Passwort-Hashing."
+              ghLink="https://github.com/ibirothe/JayTwoDoor"        
             />
           </Col>
 
