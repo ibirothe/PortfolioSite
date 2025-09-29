@@ -4,9 +4,7 @@ import ProjectCard from "./ProjectCards";
 import Particle from "../Particle";
 import kings_guard from "../../Assets/Projects/kings_guard.png";
 import park from "../../Assets/Projects/park.png";
-import tales from "../../Assets/Projects/tales.png";
 import jay from "../../Assets/Projects/jay2door.png";
-import gol from "../../Assets/Projects/game_of_life.png";
 
 function Projects() {
   return (
