@@ -46,6 +46,7 @@ function Projects() {
               isBlog={false}
               title="Jay2Door"
               description="Multi-User Todo App mit FastAPI Backend, React/Chakra-ui Frontend und MongoDB. Nutzerauthentifizierung mit JWT und passlib Passwort-Hashing."
+              demoLink="https://jay-two-door.vercel.app"
               ghLink="https://github.com/ibirothe/JayTwoDoor"        
             />
           </Col>
