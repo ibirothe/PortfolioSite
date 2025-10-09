@@ -31,22 +31,23 @@ function Projects() {
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={lorem}
+              imgPath={jay}
               isBlog={false}
-              title="React Webpage Template"
-              description="React single-page app demonstrating dynamic routing, component-based state management and prop-driven image reveal animations. Integrates @cloudinary/react for optimized image delivery, react-waypoint for scroll-triggered effects React single-page app mit dynamic routing, component-based state management und prop-driven image reveal animations."
-              ghLink="https://github.com/ibirothe/react_website_template"
-              demoLink="https://webloremipsum.vercel.app"        
+              title="Jay2Door"
+              description="Multi-User Todo App mit FastAPI Backend, React/Chakra-ui Frontend und MongoDB. Nutzerauthentifizierung mit JWT und passlib Passwort-Hashing. Testaccount: testme@jay2door.io Password: jaytestme"
+              demoLink="https://jay-two-door.vercel.app"
+              ghLink="https://github.com/ibirothe/JayTwoDoor"        
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={jay}
+              imgPath={lorem}
               isBlog={false}
-              title="Jay2Door"
-              description="Multi-User Todo App mit FastAPI Backend, React/Chakra-ui Frontend und MongoDB. Nutzerauthentifizierung mit JWT und passlib Passwort-Hashing."
-              ghLink="https://github.com/ibirothe/JayTwoDoor"        
+              title="React Webpage Template"
+              description="React-Single-Page-App, die dynamisches Routing, komponentenbasiertes Zustandsmanagement und durch Props gesteuerte Image Reveal demonstriert. Integriert cloudinary/react für optimierte Image Delivery und react-waypoint für scrollbasierte Effekte."
+              ghLink="https://github.com/ibirothe/react_website_template"
+              demoLink="https://webloremipsum.vercel.app"        
             />
           </Col>
 
