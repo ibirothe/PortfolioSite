@@ -56,7 +56,7 @@ function Projects() {
               imgPath={park}
               isBlog={false}
               title="Parking Ticket CLI"
-              description="Python-CLI-App zur Parkplatz-Verwaltung mittels einer SQLite-Datenbank. Fokus des Repos liegt auf der Laufzeitoptimierung von Operationen durch Wahl performanter Datenstrukturen."
+              description="Python-CLI-App zur Parkplatz-Verwaltung mit SQLite-Datenbank, Nummernschilderkennung aus Bilddatei und grafischem Statusreport mit Matplotlip und pandas."
               ghLink="https://github.com/ibirothe/Parking-Ticket-System"        
             />
           </Col>
