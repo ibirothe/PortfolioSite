@@ -61,7 +61,7 @@ function About() {
                       <ImPlus /> <span className="purple">GdScript</span> - Advanced
                     </li>
                     <li className="about-activity" style={{ fontSize: "0.8em" }}>
-                      <ImPlus /> <span className="purple">JavaScript</span> - Learner
+                      <ImPlus /> <span className="purple">JavaScript</span> - Intermediate
                     </li>
                 </p>
               </blockquote>
