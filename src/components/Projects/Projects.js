@@ -6,6 +6,7 @@ import kings_guard from "../../Assets/Projects/kings_guard.png";
 import park from "../../Assets/Projects/park.png";
 import jay from "../../Assets/Projects/jay2door.png";
 import lorem from "../../Assets/Projects/react_web.png";
+import portfolio from "../../Assets/Projects/portfolio.png";
 
 function Projects() {
   return (
@@ -58,6 +59,16 @@ function Projects() {
               title="Parking Ticket CLI"
               description="Python-CLI-App zur Parkplatz-Verwaltung mit SQLite-Datenbank, Nummernschilderkennung aus Bilddatei und grafischem Statusreport mit Matplotlip und pandas."
               ghLink="https://github.com/ibirothe/Parking-Ticket-System"        
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={portfolio}
+              isBlog={false}
+              title="Portfolio Website"
+              description="Source Code meiner Portfolio-Seite auf GitHub."
+              ghLink="https://github.com/ibirothe/PortfolioSite"        
             />
           </Col>
         </Row>
