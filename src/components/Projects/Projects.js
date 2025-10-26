@@ -36,7 +36,7 @@ function Projects() {
               isBlog={false}
               title="Jay2Door"
               description="Multi-User Todo App mit FastAPI Backend, React/Chakra-ui Frontend und MongoDB. Authentifizierung mit JWT und passlib. Nutzung von Brevo-API für Erinnerungs-Emails. Testaccount: testme@jay2door.io Password: jaytestme"
-              demoLink="https://www.jaytwodoor.com"
+              demoLink="https://jaytwodoor.com"
               ghLink="https://github.com/ibirothe/JayTwoDoor"        
             />
           </Col>
