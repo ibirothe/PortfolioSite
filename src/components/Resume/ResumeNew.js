@@ -10,6 +10,7 @@ import "react-pdf/dist/esm/Page/AnnotationLayer.css";
 import cert1 from "../../Assets/Certificates/cert_1.jpg";
 import cert2 from "../../Assets/Certificates/cert_2.jpg";
 import cert3 from "../../Assets/Certificates/cert_3.jpg";
+import cert4 from "../../Assets/Certificates/cert_4.jpeg";
 
 // PDF.js Worker
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
@@ -61,9 +62,9 @@ function ResumeNew() {
 
         {/* Certificates Section */}
         <Row className="mt-5 justify-content-center">
-          <h1 className="purple">Certificates</h1>
+          <h1 className="purple">Zertifikate</h1>
 
-          {[cert1, cert2, cert3].map((cert, idx) => (
+          {[cert1, cert2, cert3, cert4].map((cert, idx) => (
             <Col key={idx} md={3} className="tech-icons">
               <img
                 src={cert}
