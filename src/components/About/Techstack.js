@@ -4,20 +4,18 @@ import {
   DiPython,
   DiGit,
   DiGithub,
-  DiJavascript1
+  DiJavascript1,
 } from "react-icons/di";
 import {
-  SiSteamworks,
-  SiItchdotio,
-  SiDiscord,
   SiVisualstudiocode,
-  SiGodotengine,
-  SiJira,
+  SiMongodb,
+  SiFastapi,
   SiDjango,
   SiSqlite,
   SiDocker,
   SiFlask,
   SiReact,
+  SiPandas,
 } from "react-icons/si";
 
 function Techstack() {
@@ -26,32 +24,26 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <DiPython />
       </Col>
-            <Col xs={4} md={2} className="tech-icons">
+      <Col xs={4} md={2} className="tech-icons">
         <DiGit />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiGithub />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiGodotengine />
+        <SiFastapi />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiJavascript1 />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiSteamworks />
+        <SiMongodb />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiItchdotio />
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiDiscord />
+        <SiPandas />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiDjango/>
-      </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <SiJira />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiVisualstudiocode />
