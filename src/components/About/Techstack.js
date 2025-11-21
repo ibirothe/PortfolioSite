@@ -13,6 +13,7 @@ import {
   SiDjango,
   SiSqlite,
   SiDocker,
+  SiMicrosoftexcel,
   SiFlask,
   SiReact,
   SiPandas,
@@ -59,6 +60,9 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <SiReact />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiMicrosoftexcel />
       </Col>
     </Row>
   );

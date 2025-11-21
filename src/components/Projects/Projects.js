@@ -7,6 +7,7 @@ import park from "../../Assets/Projects/park.png";
 import jay from "../../Assets/Projects/jay2door.png";
 import lorem from "../../Assets/Projects/react_web.png";
 import portfolio from "../../Assets/Projects/portfolio.png";
+import drawpyo from "../../Assets/Projects/drawpyo.png";
 
 function Projects() {
   return (
@@ -38,6 +39,17 @@ function Projects() {
               description="Multi-User Todo App mit FastAPI Backend, React/Chakra-ui Frontend und MongoDB. Authentifizierung mit JWT und passlib. Nutzung von Brevo-API für Erinnerungs-Emails. Testaccount: testme@jay2door.io Password: jaytestme"
               demoLink="http://jaytwodoor.com"
               ghLink="https://github.com/ibirothe/JayTwoDoor"        
+            />
+          </Col>
+
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={drawpyo}
+              isBlog={false}
+              title="Drawpyo"
+              description="Open-Source Python Library. Als Contributor und Maintainer von Drawpyo arbeite ich an einer Bibliothek zur programmatischen Erstellung von draw.io-Diagrammen."
+              ghLink="https://github.com/MerrimanInd/drawpyo"
+              demoLink="https://pypi.org/project/drawpyo/"
             />
           </Col>
 

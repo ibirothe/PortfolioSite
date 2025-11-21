@@ -32,7 +32,7 @@ function AboutCard() {
           </p>
           <ul>
             <li className="about-activity" style={{ fontSize: "0.8em" }}>
-              <ImPlus /> <span className="purple">Python</span> - Intermediate
+              <ImPlus /> <span className="purple">Python</span> - Professional
             </li>
             <li className="about-activity" style={{ fontSize: "0.8em" }}>
               <ImPlus /> <span className="purple">GdScript</span> - Advanced
@@ -42,34 +42,14 @@ function AboutCard() {
             </li>
           </ul>
           <p style={{ textAlign: "justify" }}>
-            Erfahrungen:
-          </p>
-          <ul>
-            <li className="about-activity" style={{ fontSize: "0.8em" }}>
-              <ImPlus /> <span className="purple">17 Jahre</span> Selbstständigkeit
-            </li>
-            <li className="about-activity" style={{ fontSize: "0.8em" }}>
-              <ImPlus /> <span className="purple">Kundenakquise-</span> und -beratung
-            </li>
-            <li className="about-activity" style={{ fontSize: "0.8em" }}>
-              <ImPlus /> <span className="purple">Game Releases</span> auf Steam und ItchIo
-            </li>
-            <li className="about-activity" style={{ fontSize: "0.8em" }}>
-              <ImPlus /> <span className="purple">Version</span> Control & <span className="purple">Ticket</span> Systeme
-            </li>
-            <li className="about-activity" style={{ fontSize: "0.8em" }}>
-              <ImPlus /> <span className="purple">Presse-</span> und Influencer-Kontakt
-            </li>
-          </ul>
-          <p style={{ textAlign: "justify" }}>
             Sprachkenntnisse:
           </p>
           <ul>
             <li className="about-activity" style={{ fontSize: "0.8em" }}>
-              <ImPlus /> Deutsch <span className="purple">Muttersprachler</span>
+              <ImPlus /> Deutsch <span className="purple">C2</span>
             </li>
             <li className="about-activity" style={{ fontSize: "0.8em" }}>
-              <ImPlus /> <span className="purple">English</span> Flüssig in Wort und Schrift
+              <ImPlus /> <span className="purple">English</span> C2
             </li>
           </ul>
         </blockquote>

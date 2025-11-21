@@ -23,10 +23,10 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              Software zu entwickeln bedeutet für mich Probleme in ihre Bestandteile zu zerbrechen, um sie in der richtigen Komposition als Lösung wieder zusammenzufügen. Mein beruflicher Alltag zeichnet sich durch digitale Kommunikation, selbstorganisiertes Arbeiten und die präzise Vermittlung komplexer Inhalte aus.
+              Zu entwickeln bedeutet für mich Probleme in ihre Bestandteile zu zerbrechen, um sie in der richtigen Komposition als Lösung wieder zusammenzufügen. Mein beruflicher Alltag zeichnet sich durch Analyse und präzise Vermittlung komplexer Inhalte aus.
               <br />
               <br />
-              <b className="purple">Erfüllung</b> liegt für mich in persönlichem <b className="purple">Erfahrungsgewinn</b>, dem Erlernen neuer Fähigkeiten und dem <b className="purple">Entwickeln</b> eleganter, durchdachter Lösungen.
+              <b className="purple">Erfüllung</b> liegt für mich in <b className="purple">Erfahrungsgewinn</b>, dem Erlernen neuer Fähigkeiten und dem <b className="purple">Entwickeln</b> eleganter, durchdachter Lösungen.
               <br />
               <br />
             </p>
